@@ -258,13 +258,13 @@ def main():
                 if st.button("📊 Informações Gerais", use_container_width=True):
                     st.session_state.pergunta_sugerida = "Mostre as informações gerais do dataset"
 
-            with col2:
-                if st.button("📈 Resumo Estatístico", use_container_width=True):
-                    st.session_state.pergunta_sugerida = "Faça um resumo estatístico completo dos dados"
+            # with col2:
+            #     if st.button("📈 Resumo Estatístico", use_container_width=True):
+            #         st.session_state.pergunta_sugerida = "Faça um resumo estatístico completo dos dados"
 
-            with col3:
-                if st.button("📊 Criar Gráfico", use_container_width=True):
-                    st.session_state.pergunta_sugerida = "Crie um gráfico interessante dos dados"
+            # with col3:
+            #     if st.button("📊 Criar Gráfico", use_container_width=True):
+            #         st.session_state.pergunta_sugerida = "Crie um gráfico interessante dos dados"
 
             # Campo de pergunta
             pergunta_inicial = getattr(st.session_state, 'pergunta_sugerida', '')
