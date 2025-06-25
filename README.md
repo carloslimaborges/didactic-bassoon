@@ -36,7 +36,7 @@ import streamlit as st
 Feito isso, digite CTRL+D para sair do comando e execute o sistema de fato:
 ```bash
 # Executar sistema
-streamlit run Agente_fiscal_final.py
+streamlit run agente_fiscal.py
 ```
 
 Uma janela do navegador deve abrir, e nela pode-se entrar com a chave grok obtida em [console.groq.com](https://console.groq.com) e enviar os arquivos e realizar as analises.
@@ -74,7 +74,7 @@ STREAMLIT_SERVER_PORT=8501
 
 ### 1. Iniciar o Sistema
 ```bash
-streamlit run Agente_fiscal_vs2.py
+streamlit run agente_fiscal.py
 ```
 
 ### 2. Acessar Interface
